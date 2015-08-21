@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>johanbanan</title><link>http://johannah.github.io/</link><description>This is a blog about geospatial data and other interests</description><atom:link href="http://johannah.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 21 Aug 2015 03:46:43 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Exploring Magnetic Drifter Data</title><link>http://johannah.github.io/posts/exploring-magnetic-drifter-data/</link><dc:creator>Johanna Hansen</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>johanbanan</title><link>http://johannah.github.io/</link><description>This is a blog about geospatial data and other interests</description><atom:link href="http://johannah.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 21 Aug 2015 04:01:49 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Exploring Magnetic Drifter Data</title><link>http://johannah.github.io/posts/exploring-magnetic-drifter-data/</link><dc:creator>Johanna Hansen</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -7,7 +7,8 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;This post will take a closer look at magnetic data collected by ocean drifters deployed by the Ocean Bottom Magenetology Laboratory off of the coast of northwestern United States. Five drifters were deployed in 2012 and collected data for several months helping to create a more accurate picture of magnetic fields over time in parts of the ocean that are only seldomly sampled by ships or other vessels. Each drifter collected data and reported it back via an iridium link as described in the following cells. More information about this project and data can be found at: &lt;a href="http://deeptow.whoi.edu/research/magdrifter.html"&gt;http://deeptow.whoi.edu/research/magdrifter.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This post will take a closer look at magnetic data collected by ocean drifters. The drifters were deployed off of the northwestern United States in the summer of 2012 by the Ocean Bottom Magenetology Laboratory. Five drifters collected data and reported back via an iridium link. The data is described in the following cell.&lt;/p&gt;
+&lt;p&gt;More information about this project and data can be found at: &lt;a href="http://deeptow.whoi.edu/research/magdrifter.html"&gt;http://deeptow.whoi.edu/research/magdrifter.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
