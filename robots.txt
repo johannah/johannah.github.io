@@ -1,2 +1,4 @@
 Sitemap: http://johannah.github.io/sitemapindex.xml
 
+User-Agent: *
+Host: johannah.github.io
