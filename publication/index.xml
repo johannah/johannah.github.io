@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Johanna Hansen</title>
+    <link>https://johannah.github.io/publication/index.xml</link>
+    <description>Recent content in Publications on Johanna Hansen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Johanna Hansen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Autonomous acoustic-aided optical localization for data transfer</title>
+      <link>https://johannah.github.io/publication/autonomous-localization/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://johannah.github.io/publication/autonomous-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Ultrasonic Culvert Inspection System (UCIS): A Low-Cost Device for Conduit Inspection</title>
+      <link>https://johannah.github.io/publication/conduit-inspection/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://johannah.github.io/publication/conduit-inspection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

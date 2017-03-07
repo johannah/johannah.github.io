@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Johanna Hansen</title>
+    <link>https://johannah.github.io/talk/index.xml</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Johanna Hansen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Johanna Hansen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Point Descriptors</title>
+      <link>https://johannah.github.io/talk/deep-desc-talk/</link>
+      <pubDate>Wed, 19 Oct 2016 16:00:00 +0000</pubDate>
+      
+      <guid>https://johannah.github.io/talk/deep-desc-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seafloor Characterization with Python as a Toolbox</title>
+      <link>https://johannah.github.io/talk/seafloor-classification/</link>
+      <pubDate>Sat, 11 Jul 2015 16:00:00 +0000</pubDate>
+      
+      <guid>https://johannah.github.io/talk/seafloor-classification/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
