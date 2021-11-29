@@ -42,12 +42,82 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in robots, machine learning, and reinforcement learning (especially when applied to earth science problems). Much of my research is about learning models of the physical world for use with interactive agents. 
+                I'm interested in robotics, machine learning, and scientific sensors (especially when applied to earth science problems). Much of my research is about learning models of the physical world for use with interactive agents. 
               </p>
             </td>
           </tr>
         </tbody></table>
+
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Ongoing Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/drifter/example_drift.gif" alt="clean-usnob" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://github.com/johannah/drift-predict">
+            <papertitle> Forecasting Floats by Learning to Transfer Trajectories </papertitle>
+              </a>
+              <br>
+              <strong>Johanna Hansen</strong>, <a href="http://www.cim.mcgill.ca/~travism/">Travis Manderson</a>, <a href="http://www.cim.mcgill.ca/~dudek/">Greg Dudek</a>
+
+              <br>
+              <p>
+	     Despite precise weather forecasting, satellite observations, and marine instrumentation of much of the ocean we know little about how currents move on the surface of the ocean. In this ongoing research effort, developed for the DARPA Forecasting Floats in Turbulence (FFT) Challenge, we predict float trajectories for 10 days in the future using a combination of physics models of the ocean, weather predictions, and transfer learning from past float trajectories. Ongoing work.
+	       </p>
+	    <p>
+                <a href="https://github.com/johannah/drift-predict">Github</a> 
+	    </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/visuotactile2.png" alt="clean-usnob" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Visuotactile-RL: Learning Multimodal Manipulation Policies with Deep Reinforcement Learning </papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen</strong>, <a href="https://fhogan.github.io"/>Francois Hogan</a>, <a href="https://scholar.google.com/citations?user=YZMnju8AAAAJ&hl=en">Dmitriy Rivkin</a>, <a href="https://www.cim.mcgill.ca/~dmeger/">David Meger</a>, <a href="https://lassonde.yorku.ca/users/jenkin">Michael Jenkin</a>, and <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>
+              <br>
+              <p>
+	      Manipulating objects with dexterity requires timely
+feedback that simultaneously leverages the senses of vision
+and touch.  In this paper, we focus on the problem setting
+where both visual and tactile sensors provide pixel-level
+feedback for Visuotactile reinforcement learning agents.
+We investigate the challenges associated with multimodal
+learning and propose several improvements to existing RL
+methods; including tactile gating, tactile data
+augmentation, and visual degradation. When compared with
+visual-only and tactile-only baselines, our Visuotactile-RL
+agents showcase (1) significant improvements in
+contact-rich tasks; (2) improved robustness to visual
+changes (lighting/camera view) in the workspace; and (3)
+resilience to physical changes in the task environment
+(weight/friction of objects). Under review.
+	       </p>
+            </td>
+          </tr>
+
+
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/bootstrap_breakout_winning_gaps.gif" alt="clean-usnob" width="160" height="160">
@@ -59,7 +129,7 @@
               <br>
               <strong>Johanna Hansen</strong> and <a href="http://kastnerkyle.github.io/">Kyle Kastner</a>
               <br>
-              <p>In the interest of learning more about exploration in reinforcement learning, we set out to implement two papers on exploration by Ian Osband et al.:  <a href="https://arxiv.org/abs/1602.04621">Deep Exploration via Bootstrap DQN</a> and <a href="https://arxiv.org/abs/1806.03335">Randomized Prior Functions for Deep Reinforcement Learning</a>. We evaluate our implementation in the Atari framework and investigate a model-based and double-Q learning version of the work, matching SOTA results. 
+              <p>In the interest of learning more about exploration in reinforcement learning, we set out to implement two papers on exploration by Ian Osband et al.:  <a href="https://arxiv.org/abs/1602.04621">Deep Exploration via Bootstrap DQN</a> and <a href="https://arxiv.org/abs/1806.03335">Randomized Prior Functions for Deep Reinforcement Learning</a>. We evaluate our implementation in the Atari framework and investigate a model-based and double-Q learning version of the work, matching SOTA results. Ongoing work.  
 	       </p>
 	    <p>
                 <a href="https://github.com/johannah/bootstrap_dqn">Github</a> /
@@ -68,6 +138,58 @@
             </td>
           </tr>
 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/jaco/mirror_trim.gif" alt="clean-usnob" width="160" height="100">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Developing a Sim2Real Interface for the Jaco Robot  </papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen*</strong> and <a href="https://melfm.github.io/about.html/">Melissa Mozifian*</a>, and <a href="https://sahandrez.github.io/">Sahand Rezaei-Shoshtari</a>
+              <br>
+	      <p>  The goal of this project is to build a sim2real and transfer learning interface for the Jaco robot by Kinova. We have transfer frameworks which work with both <a href="https://github.com/deepmind/dm_control">DM Control Suite</a> and <a href="https://github.com/ARISE-Initiative/robosuite">Robosuite</a>. Ongoing projects which utilize these tools include: <a href="https://sites.google.com/view/ibit">Intervention Design for Effective Sim2Real Transfer (IBIT)</a> and <a href="https://github.com/johannah/DH">Transfer Learning with Differentiable Physics-Informed Priors</a>.
+	       </p>
+	    <p>
+		<a href="https://github.com/johannah/jaco_docker">Docker</a>  /
+		<a href="https://github.com/johannah/ros_interface">ROS Interface</a> /
+		<a href="https://github.com/johannah/jaco_rl">RL Example</a> /
+		<a href="https://github.com/melfm/ibit">IBIT</a> /
+		<a href="https://github.com/melfm/robosuite">Robosuite</a> 
+	    </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/acn/acn_nearest.png" alt="clean-usnob" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Learning to Associate Discrete Latents  </papertitle>
+              </a>
+	      <br>
+	      <strong>Johanna Hansen*</strong> and <a href="http://kastnerkyle.github.io/">Kyle Kastner*</a>
+              <p>  In this generative modeling project, we implement Associative Compression Networks for Representation Learning (ACN) by Graves, Menick, and van den Oord. We also introduced a VQ-VAE style decoder to the ACN model for discrete latents and call this architecture ACN-VQ. In the thumbnail, we show how to encode an example from the validation set (leftmost image) and find its nearest neighbors (right columns) according to the learned ACN model. Ongoing work to apply this in reinforcement learning settings. 
+	       </p>
+	    <p>
+		<a href="https://github.com/johannah/ACN">Github</a>  /
+		<a href="images/acn/fashion_acn_validation_00_0032400000ex_pca_valid.html">ACN Demo</a>  / 
+		<a href="images/acn/fashion_acnvq_validation_small_vq_01_0078000000ex_pca_valid.html"> ACN-VQ Demo</a> 
+	    </p>
+            </td>
+          </tr>
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Pubished Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
 
 
@@ -135,6 +257,65 @@ differences between R0 and R1.
             </td>
           </tr>
 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/drifter/_decide.gif" alt="clean-usnob" width="160" height="100">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle>Autonomous marine sampling enhanced by strategically deployed drifters in marine flow</papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen</strong>, <a href="http://cim.mcgill.ca/~/msandeep">Sandeep Manjanna</a>, <a href="https://sites.google.com/view/albertoq">Alberto Quattrini Li</a>,  <a href="https://www.cse.sc.edu/~yiannisr/">Ioannis Rekleitis</a>, <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>
+              <br>
+	      <p>
+
+	    <em> Selected for Poster Competition (Top ~10% Student Paper) at OCEANS 2018, Charleston </em>
+	      </p>
+              <p> 
+	      We present a transportable system for ocean observations in which a small autonomous surface vehicle (ASV)
+adaptively collects spatially diverse samples with aid from a
+team of inexpensive, passive floating sensors known as drifters.
+Drifters can provide an increase in spatial coverage at little cost
+as they are propelled about the survey area by the ambient
+flow field instead of with actuators. Our iterative planning
+approach demonstrates how we can use the ASV to strategically
+deploy drifters into points of the flow field for high expected
+information gain, while also adaptively sampling the space. 
+	       </p>
+	    <p>
+		<a href="https://arxiv.org/pdf/1811.10103.pdf">Paper</a>  
+	    </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/model-based-rl/vq-model.gif" alt="clean-usnob" width="160" height="100">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Planning in Dynamic Environments with Conditional Autoregressive Models  </papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen*</strong>, <a href="http://kastnerkyle.github.io/">Kyle Kastner*</a>, <a href="https://mila.quebec/en/person/aaron-courville/">Aaron Courville</a>, and <a href="https://mila.quebec/en/person/gregory-dudek/">Greg Dudek</a>
+	      <p>
+	      <em> Presented in the Prediction and Generative Modeling in Reinforcement Learning workshop at ICML 2018.</em>
+	      </p>
+              <p> We introduce MCTS planning over learned discrete latent states with conditional autoregressive forward planning.  This work demonstrates an agent solving a complicated planning problem with search using purely learned models. Long-term search on rollouts is enabled via a highly-accurate PixelCNN forward model and exact matching between states represented with VQ-VAE discrete latents.
+	       </p>
+	    <p>
+                <a href="papers/icml18-vqvae-model-camera-ready.pdf">Paper</a> / 
+		<a href="https://github.com/johannah/trajectories">Github</a> /
+		<a href="https://imgur.com/a/6DJbrB1">Examples</a>
+	    </p>
+            </td>
+          </tr>
+
+
+
+
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/drifter/iros.gif" alt="clean-usnob" width="160" height="200">
@@ -156,31 +337,6 @@ differences between R0 and R1.
 	    </p>
             </td>
           </tr>
-
-
-
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/model-based-rl/vq-model.gif" alt="clean-usnob" width="160" height="100">
-            </td>
-            <td width="75%" valign="middle">
-            <papertitle> Planning in Dynamic Environments with Conditional Autoregressive Models  </papertitle>
-              </a>
-	      <strong>Johanna Hansen*</strong>, <a href="http://kastnerkyle.github.io/">Kyle Kastner*</a>, <a href="https://mila.quebec/en/person/aaron-courville/">Aaron Courville</a>, and <a href="https://mila.quebec/en/person/gregory-dudek/">Greg Dudek</a>
-	      <p>
-	      <em> Presented in the Prediction and Generative Modeling in Reinforcement Learning workshop at ICML 2018.</em>
-	      </p>
-              <p> We introduce MCTS planning over learned discrete latent states with conditional autoregressive forward planning. 
-	       </p>
-	    <p>
-                <a href="papers/icml18-vqvae-model-camera-ready.pdf">Paper</a> / 
-		<a href="https://github.com/johannah/trajectories">Github</a> /
-		<a href="https://imgur.com/a/6DJbrB1">Examples</a>
-	    </p>
-            </td>
-          </tr>
-
 
 
 
@@ -211,23 +367,59 @@ differences between R0 and R1.
 
 
 
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/drifter/crv.png" alt="clean-usnob" width="160" height="140">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle>Collaborative Sampling Using Heterogeneous Marine Robots Driven by Visual Cues</papertitle>
+              </a>
+              <br>
+	      <a href="http://cim.mcgill.ca/~/msandeep">Sandeep Manjanna</a>, <strong>Johanna Hansen</strong>, <a href="https://sites.google.com/view/albertoq">Alberto Quattrini Li</a>,  <a href="https://www.cse.sc.edu/~yiannisr/">Ioannis Rekleitis</a>, <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>
+              <br>
+	      <p>
+	      <em> Presented at the Computer Robot Vision (CRV) Conference in 2017</em>
+	      </p>
+              <p> 
+	      We present
+a method to strategically sample locally observable features
+using two classes of sensor platforms. Our system consists
+of a sophisticated autonomous surface vehicle (ASV) which
+strategically samples based on information provided by a
+team of inexpensive sensor nodes. The sensor nodes effectively
+extend the observational capabilities of the vehicle by capturing
+georeferenced samples from disparate and moving points across
+the region. The ASV uses this information, along with its own
+observations, to plan a path so as to sample points which
+it expects to be particularly informative.
+	       </p>
+	    <p>
+		<a href="https://www.cim.mcgill.ca/~mrl/pubs/sandeep/CRV2017.pdf">Paper</a>  
+	    </p>
+            </td>
+          </tr>
+
 
 
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/acn/acn_nearest.png" alt="clean-usnob" width="160" height="160">
+              <img src="images/drifter/combine.png" alt="clean-usnob" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
-            <papertitle> Learning to Associate Discrete Latents  </papertitle>
+            <papertitle>Data Correlation and Comparison from Multiple Sensors Over a Coral Reef with a Team of Heterogeneous Aquatic Robots</papertitle>
               </a>
-	      <strong>Johanna Hansen*</strong> and <a href="http://kastnerkyle.github.io/">Kyle Kastner*</a>
-              <p>  In this generative modeling project, we implement Associative Compression Networks for Representation Learning (ACN) by Graves, Menick, and van den Oord. We also introduced a VQ-VAE style decoder to the ACN model for discrete latents and call this architecture ACN-VQ. In the thumbnail, we show how to encode an example from the validation set (leftmost image) and find its nearest neighbors (right columns) according to the learned ACN model. Ongoing work. 
+              <br>
+	      <a href="https://sites.google.com/view/albertoq">Alberto Quattrini Li</a>,  <a href="https://www.cse.sc.edu/~yiannisr/">Ioannis Rekleitis</a>, <a href="http://cim.mcgill.ca/~/msandeep">Sandeep Manjanna</a>, <a href="https://ca.linkedin.com/in/nikhil-kakodkar-48187130">Nikhil Kakodkar</a>, <strong>Johanna Hansen</strong>, <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>, Leonardo Bobadilla, Jacob Anderson, <a href="http://www.ryannealsmith.com/">Ryan N. Smith</a>
+              <br>
+	      <p>
+	      <em> Presented at the International Symposium on Experimental Robotics (ISER 2016)</em>
+	      </p>
+              <p> 
+	      This paper presents experimental insights from the deployment of an ensemble of heterogeneous autonomous sensor systems over a shallow coral reef. Visual, inertial, GPS, and ultrasonic data collected are compared and correlated to produce a comprehensive view of the health of the coral reef. Coverage strategies are discussed with a focus on the use of informed decisions to maximize the information collected during a fixed period of time.
 	       </p>
 	    <p>
-		<a href="https://github.com/johannah/ACN">Github</a>  /
-		<a href="images/acn/fashion_acn_validation_00_0032400000ex_pca_valid.html">ACN Demo</a>  / 
-		<a href="images/acn/fashion_acnvq_validation_small_vq_01_0078000000ex_pca_valid.html"> ACN-VQ Demo</a> 
+		<a href="https://link.springer.com/chapter/10.1007/978-3-319-50115-4_62">Paper</a>  
 	    </p>
             </td>
           </tr>
@@ -236,31 +428,15 @@ differences between R0 and R1.
 
 
 
-
-
-
-
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/jaco/mirror_trim.gif" alt="clean-usnob" width="160" height="100">
-            </td>
-            <td width="75%" valign="middle">
-            <papertitle> Developing a Sim2Real Interface for the Jaco Robot  </papertitle>
-              </a>
-              <br>
-	      <strong>Johanna Hansen*</strong> and <a href="https://melfm.github.io/about.html/">Melissa Mozifian*</a>, and <a href="https://sahandrez.github.io/">Sahand Rezaei-Shoshtari</a>
-              <br>
-	      <p>  The goal of this project is to build a sim2real and transfer learning interface for the Jaco robot by Kinova. We have transfer frameworks which work with both <a href="https://github.com/deepmind/dm_control">DM Control Suite</a> and <a href="https://github.com/ARISE-Initiative/robosuite">Robosuite</a>. Ongoing projects which utilize these tools include: <a href="https://sites.google.com/view/ibit">Intervention Design for Effective Sim2Real Transfer (IBIT)</a> and <a href="https://github.com/johannah/DH">Transfer Learning with Differentiable Physics-Informed Priors</a>.
-	       </p>
-	    <p>
-		<a href="https://github.com/johannah/jaco_docker">Docker</a>  /
-		<a href="https://github.com/johannah/ros_interface">ROS Interface</a> /
-		<a href="https://github.com/johannah/jaco_rl">RL Example</a> /
-		<a href="https://github.com/melfm/ibit">IBIT</a> /
-		<a href="https://github.com/melfm/robosuite">Robosuite</a> 
-	    </p>
+            <td>
+              <heading>Projects</heading>
             </td>
           </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -295,7 +471,31 @@ differences between R0 and R1.
 	       </p>
             </td>
           </tr>
+
+
         </tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
@@ -304,6 +504,9 @@ differences between R0 and R1.
             </td>
           </tr>
         </tbody></table>
+
+
+
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
 
@@ -312,7 +515,7 @@ differences between R0 and R1.
               <img src="images/ai4earthlogo.png" alt="clean-usnob" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
-             <a href="https://ai4earthscience.github.io">AI4EarthScience Organizer</a>
+             <a href="https://ai4earthscience.github.io">AI4Earth Organizer</a>
               <br>
               <em>ICLR 2020 and NeurIPS 2020</em>
               <p>Organizer for the AI4Earth machine learning workshop. This workshop highlights work being done at the intersection of AI and the Earth and Space Science. In 2020, I organized the "Sensors and Sampling" track and managed the website. </p>
