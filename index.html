@@ -21,7 +21,7 @@
                 <name>Johanna Hansen</name>
               </p>
 	      <p>I am a PhD candidate at McGill University where I am a member of the <a  href=https://cim.mcgill.ca/>Centre for Intelligent Machines</a> and 
-	      <a href="https://mila.quebec/">Mila</a>.  I work on robotics behavior learning and machine learning problems. Currently, I am a part-time research intern at the <a href="https://research.samsung.com/aicenter_montreal">Samsung AI Center (SAIC) in Montreal</a> where I focus on dexturous manipulation with visuotactile sensors. In the summer of 2019, I interned at <a href="https://www.jpl.nasa.gov/">JPL</a> and worked on machine vision aspects of the Mars Sample Return Mission.  Prior to starting graduate school, I was an at-sea engineer for the autonomous underwater vehicle, <a href="https://www.whoi.edu/what-we-do/explore/underwater-vehicles/auvs/sentry/">Sentry</a>, at the National Deep Submergence Facility at <a href="https://ndsf.whoi.edu/">WHOI</a> and an engineer working on applied sensing at <a href="https://www.swri.org/technical-divisions/intelligent-systems">SWRI</a>. 
+	      <a href="https://mila.quebec/">Mila</a>.  I work on robotics behavior learning and machine learning problems. Currently, I am a part-time research intern at the <a href="https://research.samsung.com/aicenter_montreal">Samsung AI Center (SAIC) in Montreal</a> where I focus on dexturous manipulation with <a href="#saic-visuotactile">visuotactile sensors</a>. In the summer of 2019, I interned at <a href="https://www.jpl.nasa.gov/">JPL</a> and worked on <a href="#jpl-meta">machine vision</a> <a href="#jpl-data">aspects</a> of the Mars Sample Return Mission.  Prior to starting graduate school, I was an at-sea engineer for the autonomous underwater vehicle, <a href="https://www.whoi.edu/what-we-do/explore/underwater-vehicles/auvs/sentry/">Sentry</a>, in the National Deep Submergence Facility at <a href="https://ndsf.whoi.edu/">WHOI</a> and an engineer working on <a href="#swri-probe">applied sensing</a> at <a href="https://www.swri.org/technical-divisions/intelligent-systems">SWRI</a>. 
               </p>
               <p style="text-align:center">
                 <a href="mailto:johanna.hansen@mail.mcgill.ca">Email</a> &nbsp/&nbsp
@@ -86,36 +86,6 @@
             </td>
           </tr>
 
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/visuotactile2.png" alt="clean-usnob" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-            <papertitle> Visuotactile-RL: Learning Multimodal Manipulation Policies with Deep Reinforcement Learning </papertitle>
-              </a>
-              <br>
-	      <strong>Johanna Hansen</strong>, <a href="https://fhogan.github.io"/>Francois Hogan</a>, <a href="https://scholar.google.com/citations?user=YZMnju8AAAAJ&hl=en">Dmitriy Rivkin</a>, <a href="https://www.cim.mcgill.ca/~dmeger/">David Meger</a>, <a href="https://lassonde.yorku.ca/users/jenkin">Michael Jenkin</a>, and <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>
-              <br>
-              <p>
-	      Manipulating objects with dexterity requires timely
-feedback that simultaneously leverages the senses of vision
-and touch.  In this paper, we focus on the problem setting
-where both visual and tactile sensors provide pixel-level
-feedback for Visuotactile reinforcement learning agents.
-We investigate the challenges associated with multimodal
-learning and propose several improvements to existing RL
-methods; including tactile gating, tactile data
-augmentation, and visual degradation. When compared with
-visual-only and tactile-only baselines, our Visuotactile-RL
-agents showcase (1) significant improvements in
-contact-rich tasks; (2) improved robustness to visual
-changes (lighting/camera view) in the workspace; and (3)
-resilience to physical changes in the task environment
-(weight/friction of objects). Under review.
-	       </p>
-            </td>
-          </tr>
 
 
 
@@ -193,6 +163,37 @@ resilience to physical changes in the task environment
           </tr>
         </tbody></table>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+          <tr>
+			<a id="saic-visuotactile">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/visuotactile2.png" alt="clean-usnob" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Visuotactile-RL: Learning Multimodal Manipulation Policies with Deep Reinforcement Learning </papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen</strong>, <a href="https://fhogan.github.io"/>Francois Hogan</a>, <a href="https://scholar.google.com/citations?user=YZMnju8AAAAJ&hl=en">Dmitriy Rivkin</a>, <a href="https://www.cim.mcgill.ca/~dmeger/">David Meger</a>, <a href="https://lassonde.yorku.ca/users/jenkin">Michael Jenkin</a>, and <a href="https://www.cim.mcgill.ca/~dudek/">Gregory Dudek</a>
+              <br>
+              <p>
+	      Manipulating objects with dexterity requires timely
+feedback that simultaneously leverages the senses of vision
+and touch.  In this paper, we focus on the problem setting
+where both visual and tactile sensors provide pixel-level
+feedback for Visuotactile reinforcement learning agents.
+We investigate the challenges associated with multimodal
+learning and propose several improvements to existing RL
+methods; including tactile gating, tactile data
+augmentation, and visual degradation. When compared with
+visual-only and tactile-only baselines, our Visuotactile-RL
+agents showcase (1) significant improvements in
+contact-rich tasks; (2) improved robustness to visual
+changes (lighting/camera view) in the workspace; and (3)
+resilience to physical changes in the task environment
+(weight/friction of objects). Under review.
+	       </p>
+            </td>
+          </tr>
 
 
 
@@ -455,6 +456,32 @@ it expects to be particularly informative.
             </td>
           </tr>
 
+          <tr>
+	<a id="swri-probe">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/swri_probe.gif" alt="clean-usnob" width="160" height="120">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle>Autonomous Acoustic-Aided Optical Localization for Data Transfer</papertitle>
+              </a>
+              <br>
+	      <strong>Johanna Hansen</strong>, <a href="https://www.linkedin.com/in/gregwillden">Greg Willden</a>, <a href="https://www.stmarytx.edu/academics/faculty/ben-abbott/">Ben Abbott</a>, and <a href="https://www.linkedin.com/in/ronald-green-04a15321">Ronald Green</a>
+
+              <br>
+	      <p>
+	      <em> Presented at the Transportation Research Board (TRB) Meeting, 2014</em>
+	      </p>
+              <p> 
+	      Southwest Research Institute® (SwRI) and the Federal Highway Administration (FHWA) teamed to create a low-cost <a href="images/annotatedProbe.png">sensor</a> to inspect in-service culverts in both wet and dry conditions. This sensor system, called the Ultrasonic Culvert Inspection System (UCIS) is suitable for mapping, monitoring, and diagnosing damage to roadway culverts using sonar mapping and live video. The sensor allows the inspector to evaluate culverts with minimal time, equipment, and cost to the sponsoring agency. Sonar information, collected as the probe travels through the culvert, can be combined with inertial measurement and distance data to produce a three-dimensional representation of the culvert that can be manipulated and viewed from many angles. A specially calibrated sonar scheme allows the sensor to be developed with inexpensive components, making this system appropriate for use in high-risk, flooded inspections. 
+	       </p>
+	    <p>
+	    <a href="https://trid.trb.org/view.aspx?id=1287406">Paper</a> /
+		<a href="https://www.youtube.com/watch?v=ZDixIOjpiks">Video</a>  
+	    </p>
+            </td>
+          </tr>
+
+
 
 
 
@@ -471,6 +498,8 @@ it expects to be particularly informative.
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
           <tr>
+
+			<a id="jpl-data">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/jpl/jpl_mars_yard.jpeg" alt="clean-usnob" width="160" height="100">
             </td>
@@ -487,6 +516,7 @@ it expects to be particularly informative.
           </tr>
 
           <tr>
+			<a id="jpl-meta">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/jpl/export.gif" alt="clean-usnob" width="160" height="100">
             </td>
