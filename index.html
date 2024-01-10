@@ -21,11 +21,13 @@
                 <name>Johanna Hansen</name>
 		<br>
               </p>
-	      <p>I am a PhD candidate at McGill University where I am a member of the <a  href=http://cim.mcgill.ca/~mrl>Mobile Robotics Lab</a> and 
-	      <a href="https://mila.quebec/">Mila</a>.  I'm interested in robotics, machine learning, and scientific sensors (especially when applied to earth science). Much of my research is about learning models of the physical world for use with interactive agents. 
+	      <p>I'm a computer scientist / engineer interested in robotics, machine learning, and scientific sensors (especially when applied to earth science). Much of my research is about learning models of the physical world for use with interactive agents. 
               </p>
 	      <p>
-	      I am a Sr. Staff Research Scientist at <a href="https://bostondynamics.com/atlas/"> Boston Dynamics </a> working on learning control for humanoid robots. During grad school, I worked part-time as a research intern at the <a href="https://research.samsung.com/aicenter_montreal">Samsung AI Center (SAIC) in Montreal</a> where I focus on dexturous manipulation with <a href="#tactile">visuotactile sensors</a>. In the summer of 2019, I interned at <a href="https://www.jpl.nasa.gov/">JPL</a> and worked on <a href="#jpl-meta">machine vision</a> <a href="#jpl-data">aspects</a> of the Mars Sample Return Mission.  Prior to starting graduate school, I was an at-sea engineer for the autonomous underwater vehicle, <a href="https://www.whoi.edu/what-we-do/explore/underwater-vehicles/auvs/sentry/">Sentry</a>, in the National Deep Submergence Facility at <a href="https://ndsf.whoi.edu/">WHOI</a> and an engineer working on <a href="#swri">applied sensing</a> at <a href="https://www.swri.org/technical-divisions/intelligent-systems">SWRI</a>. 
+	      I am currently a Sr. Staff Research Scientist at <a href="https://bostondynamics.com/atlas/"> Boston Dynamics </a> researching learned control for humanoid robots. Previously, I worked on a PhD at McGill University in the <a  href=http://cim.mcgill.ca/~mrl>Mobile Robotics Lab</a> and 
+	      <a href="https://mila.quebec/">Mila</a> with Greg Dudek.  
+
+	      During grad school, I worked part-time as a research intern at the <a href="https://research.samsung.com/aicenter_montreal">Samsung AI Center (SAIC) in Montreal</a> where I focused on dexturous manipulation with <a href="#tactile">visuotactile sensors</a>. In the summer of 2019, I interned at <a href="https://www.jpl.nasa.gov/">JPL</a> and looked at <a href="#jpl-meta">machine vision</a> <a href="#jpl-data">aspects</a> of the Mars Sample Return Mission.  Prior to starting graduate school, I was an at-sea engineer for the autonomous underwater vehicle, <a href="https://www.whoi.edu/what-we-do/explore/underwater-vehicles/auvs/sentry/">Sentry</a>, in the National Deep Submergence Facility at <a href="https://ndsf.whoi.edu/">WHOI</a> and an engineer working on <a href="#swri">applied sensing</a> at <a href="https://www.swri.org/technical-divisions/intelligent-systems">SWRI</a>. 
               </p>
               <p style="text-align:center">
                 <a href="mailto:johanna.hansen@mail.mcgill.ca">Email</a> &nbsp/&nbsp
@@ -59,7 +61,31 @@
             <td>
 			<a id="ongoing">
 		    <hr>
-              <heading>Ongoing Research</heading>
+              <heading>Projects</heading>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+			<a id="tactile">
+              <img src="images/canjacokine_DH_abs_posquat01000000.gif" alt="clean-usnob" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+            <papertitle> Learning to Manipulate from Pixels with a Kinematic Critic </papertitle>
+              </a>
+              <br>
+            <strong>Johanna Hansen*</strong>, Kyle Kastner*, Yuying Huang, Aaron Courville, Dave Meger, and Gregory Dudek
+              <br>
+
+              <p>
+	
+This paper introduces a pixel-based actor-critic architecture featuring a differentiable Denavit-Hartenburg (DH) forward kinematics function in the critic sub-network, which achieves substantial improvement in average cumulative reward across several complex manipulation tasks and two robot arms in Robosuite, compared to strong baselines. Forward kinematics as described by DH parameterization for rigid-body robots is fully differentiable with respect to input joint angles, given fixed link-relative geometric information, and including this differentiable module improves training of reinforcement learning agents on an array of benchmark manipulation tasks. We show the importance of formulating a differentiable kinematic function for overall task performance in an ablation study, and demonstrate a simulation-learned policy running on a real Jaco 7DOF robot.
+	       </p>
+	    <p>
+                <a href="papers/kinematic_critic_final.pdf">Paper</a> / 
+		<a href="https://youtu.be/w4YruKjelC8">Video</a> /
+		<a href="https://johannah.github.io/kinematic-critic/">Webpage</a>
+	    </p>
             </td>
           </tr>
 
@@ -78,7 +104,7 @@
 
               <br>
               <p>
-	     Despite precise weather forecasting, satellite observations, and marine instrumentation of much of the ocean we know little about how currents move on the surface of the ocean. In this ongoing research effort, developed for the DARPA Forecasting Floats in Turbulence (FFT) Challenge, we predict float trajectories for 10 days in the future using a combination of physics models of the ocean, weather predictions, and transfer learning from past float trajectories (currently in 5th place in global competition). Ongoing work.
+	     Despite precise weather forecasting, satellite observations, and marine instrumentation of much of the ocean we know little about how currents move on the surface of the ocean. In this ongoing research effort, developed for the DARPA Forecasting Floats in Turbulence (FFT) Challenge, we predict float trajectories for 10 days in the future using a combination of physics models of the ocean, weather predictions, and transfer learning from past float trajectories (5th place in global competition). 
 	       </p>
 	    <p>
                 <a href="https://github.com/johannah/drift-predict">Github</a> 
@@ -182,35 +208,6 @@
               <heading>Pubished Research</heading>
             </td>
           </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-			<a id="tactile">
-              <img src="images/canjacokine_DH_abs_posquat01000000.gif" alt="clean-usnob" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-            <papertitle> Learning to Manipulate from Pixels on Rigid Body Robots with a Kinematic Critic </papertitle>
-              </a>
-              <br>
-            <strong>Johanna Hansen*</strong>, Kyle Kastner*, Yuying Huang, Aaron Courville, Dave Meger, and Gregory Dudek
-              <br>
-
-       <p> 
-	    <em>Under review</em>
-       </p>
-              <p>
-	
-This paper introduces a pixel-based actor-critic architecture featuring a differentiable Denavit-Hartenburg (DH) forward kinematics function in the critic sub-network, which achieves substantial improvement in average cumulative reward across several complex manipulation tasks and two robot arms in Robosuite, compared to strong baselines. Forward kinematics as described by DH parameterization for rigid-body robots is fully differentiable with respect to input joint angles, given fixed link-relative geometric information, and including this differentiable module improves training of reinforcement learning agents on an array of benchmark manipulation tasks. We show the importance of formulating a differentiable kinematic function for overall task performance in an ablation study, and demonstrate a simulation-learned policy running on a real Jaco 7DOF robot.
-	       </p>
-	    <p>
-                <a href="papers/kinematic_critic_final.pdf">Paper</a> / 
-		<a href="https://youtu.be/w4YruKjelC8">Video</a> /
-		<a href="https://johannah.github.io/kinematic-critic/">Webpage</a>
-	    </p>
-            </td>
-          </tr>
-
-
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
